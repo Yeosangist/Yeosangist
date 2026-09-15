@@ -24,9 +24,13 @@ A Python/PyQt6 application for creating synchronised .lrc lyric files from .txt 
 ### [BerryControl](https://github.com/Yeosangist/BerryControl)
 A Python/PyQt6 application that interfaces with MPRIS-compatible media players, making media playback easier to control from a single interface.
 
+### [Lyriclook](https://github.com/Yeosangist/lyriclook)
+A Python/PyQt6 wrapper for grep searches specifically for lyric files.
+
 ## Currently interested in
 
 - Python automation
 - Data processing
 - Process improvement
 - Building useful little tools
+- Making my life easier
