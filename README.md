@@ -1,6 +1,6 @@
 # Hi, I'm Sylvan
 
-Owner of [Sparkle Suite 2.0](https://github.com/sparkles-everywhere)
+### Owner of [Sparkle Suite 2.0](https://github.com/sparkles-everywhere)
 
 I'm a (mainly) Python developer who enjoys building tools that make repetitive or complicated tasks easier.
 
