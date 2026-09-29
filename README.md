@@ -1,6 +1,8 @@
 # Hi, I'm Sylvan
 
-I'm a Python developer who enjoys building tools that make repetitive or complicated tasks easier.
+Owner of [Sparkle Suite 2.0](https://github.com/sparkles-everywhere)
+
+I'm a (mainly) Python developer who enjoys building tools that make repetitive or complicated tasks easier.
 
 ## What I work with
 
