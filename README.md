@@ -1,38 +1,28 @@
 # Hi, I'm Sylvan
 
-### Owner of [Sparkle Suite 2.0](https://github.com/sparkles-everywhere)
+Owner of [Sparkle Suite 2.0](https://github.com/sparkles-everywhere)
 
-I'm a (mainly) Python developer who enjoys building tools that make repetitive or complicated tasks easier.
+I'm a junior frontend-focused developer with full-stack experience, who enjoys building tools that make repetitive or complicated tasks easier, with occasional detours into fun little projects because I can.
 
 ## What I work with
 
-- Python
-- PYQT6
-- Tkinter
+- Python (PyQt6, Tkinter)
 - SQLite
 - CSS
+- JavaScript
+- HTML
 - GitHub
 - Data processing
 - Automation
 
-## Projects
+---
 
-### [Script Manager](https://github.com/Yeosangist/script-manager)
-A Python/Tkinter application for organising, managing, and launching scripts from a single interface.
-
-### [LRC Maker](https://github.com/Yeosangist/lrc-maker)
-A Python/PyQt6 application for creating synchronised .lrc lyric files from .txt files.
-
-### [BerryControl](https://github.com/Yeosangist/BerryControl)
-A Python/PyQt6 application that interfaces with MPRIS-compatible media players, making media playback easier to control from a single interface.
-
-### [Lyriclook](https://github.com/Yeosangist/lyriclook)
-A Python/PyQt6 wrapper for grep searches specifically for lyric files.
-
-## Currently interested in
-
-- Python automation
-- Data processing
-- Process improvement
-- Building useful little tools
-- Making my life easier
+| Project | Description | Language / stack |
+|-|-|-|
+| [Script Manager](https://github.com/Yeosangist/script-manager) | An application for organising, managing, and launching scripts from a single interface.|Python, Tkinter|
+| [LRC Maker](https://github.com/Yeosangist/lrc-maker) | An application for creating synchronised .lrc lyric files from .txt files.|Python, PyQt6|
+| [BerryControl](https://github.com/Yeosangist/BerryControl) | An application that interfaces with MPRIS-compatible media players, making media playback easier to control from a single interface.|Python, PyQt6, GTK|
+| [Lyriclook](https://github.com/Yeosangist/lyriclook) | A wrapper for grep searches specifically for lyric files. |Python, PyQt6, grep|
+| [Queer flag highlighter](https://github.com/Yeosangist/queer-flag-text) | Universal UserJS script that highlights lgbtq+ identities with their pride flag colours across the entire web. |JavaScript, CSS|
+| [Cascade](https://github.com/Yeosangist/Cascade) | An offline masonry-style image viewer done in Electron, forked, modified for Linux and added features. |JavaScript, HTML5, CSS|
+| [Sparkle Suite 2.0](https://github.com/sparkles-everywhere) | A collection of sparkle overlay screens for different platforms (Android, X11 Linux, ObsidianMD). |Python, Kotlin, JavaScript|
