@@ -28,4 +28,4 @@ I'm a junior frontend-focused developer with full-stack experience, who enjoys b
 | [Sparkle Suite 2.0](https://github.com/sparkles-everywhere) | A collection of sparkle overlay screens for different platforms (Android, X11 Linux, ObsidianMD). |Python, Kotlin, JavaScript|
 
 
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=Yeosangist&show_icons=true&theme=radical) ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Yeosangist&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Yeosangist&layout=compact&theme=radical)
