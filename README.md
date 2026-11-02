@@ -16,7 +16,7 @@ Some projects included in this stack list aren't publicly available, either beca
 
 | Project | Description | Language / stack |
 |-|-|-|
-| Script Manager | An application for organising, managing, and launching scripts from a single interface.	| Python, Tkinter |
-| BerryControl | An application that interfaces with MPRIS-compatible media players, making media playback easier to control from a single interface. | Python, PyQt6, GTK |
-| Cascade | An offline masonry-style image viewer done in Electron, forked, modified for Linux and added features. | JavaScript, HTML5, CSS, Node.JS |
-| Sparkle Suite 2.0 | A collection of sparkle overlay screens for different platforms (Android, X11 Linux, ObsidianMD). | Python, Kotlin, JavaScript |
+| [Envision](https://github.com/Yeosangist/Envision) | A masonry-style image library viewer and manager with gallery-dl integration. | Rust, Typescript, CSS |
+| [Script Manager](https://github.com/Yeosangist/script-manager) | An application for organising, managing, and launching scripts from a single interface.	| Python, Tkinter |
+| [BerryControl](https://github.com/Yeosangist/BerryControl) | An application that interfaces with MPRIS-compatible media players, making media playback easier to control from a single interface. | Python, PyQt6, GTK |
+| [Cascade](https://github.com/Yeosangist/Cascade) | An offline masonry-style image viewer done in Electron, forked, modified for Linux and added features. | JavaScript, HTML5, CSS, Node.JS |
