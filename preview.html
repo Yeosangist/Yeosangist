@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Userscript Preview</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding: 24px;
+        }
+    </style>
+</head>
+<body>
+    <p>Preview text for the Colour Word Highlighter: red, orange, yellow, green, blue, purple, pink, crimson, scarlet, ruby, vermilion, teal, cyan, magenta, lime, indigo, violet, gold, silver, grey, brown, coral, salmon, khaki, maroon, navy, olive, plum, tan.</p>
+    <br>
+    <p>Preview text for the Queer Flag Highlighter: queer, gay, lesbian, bisexual, transgender, nonbinary, pride, achillean, mlm, wlw, pansexual, asexual, aromantic, intersex, genderqueer, genderfluid.</p>
+
+    <script>
+        let coloursScriptLoaded = false;
+        let flagsScriptLoaded = false;
+
+        window.addEventListener('message', function(event) {
+            const data = event.data;
+            
+            if (data.colours && !coloursScriptLoaded) {
+                const script = document.createElement('script');
+                script.src = 'scripts/colours.user.js';
+                document.body.appendChild(script);
+                coloursScriptLoaded = true;
+            } else if (!data.colours && coloursScriptLoaded && window.colorWordHighlighterStop) {
+                window.colorWordHighlighterStop();
+                coloursScriptLoaded = false;
+            }
+            
+            if (data.flags && !flagsScriptLoaded) {
+                const script = document.createElement('script');
+                script.src = 'scripts/flags.user.js';
+                document.body.appendChild(script);
+                flagsScriptLoaded = true;
+            } else if (!data.flags && flagsScriptLoaded && window.queerFlagHighlighterStop) {
+                window.queerFlagHighlighterStop();
+                flagsScriptLoaded = false;
+            }
+        });
+    </script>
+</body>
+</html>
